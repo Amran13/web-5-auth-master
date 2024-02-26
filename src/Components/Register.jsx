@@ -8,7 +8,7 @@ const Register = () => {
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold">Register</h1>
                 </div>
-                <div className="card shrink-0 w-full w-[450px] shadow-2xl bg-base-100">
+                <div className="card shrink-0 w-[450px] shadow-2xl bg-base-100">
                     <form className="card-body">
                         <div className="form-control">
                             <label className="label">
