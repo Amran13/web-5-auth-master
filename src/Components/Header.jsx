@@ -32,6 +32,10 @@ const Header = () => {
                     <Link className='mx-2' to="/">Home</Link>
                     <Link className='mx-2' to="/login">Login</Link>
                     <Link className='mx-2' to="/register">Register</Link>
+                    {
+                        user && <Link className='mx-2' to="/orders">Orders</Link>
+                    }
+                    
                 </ul>
             </div>
             <div className="navbar-end">
